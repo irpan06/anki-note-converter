@@ -151,3 +151,7 @@ Output (in Anki):
 
   - If you add new notes, only the new files will be processed.  
   - If you want to re-import all notes (e.g., after editing old ones), simply delete `processed.json` and rerun the script.
+- **API Key** → this project uses Groq API.  
+  Open `src/main.py` and replace the placeholder string with your own API key:
+  ```python
+  api_key = "your_api_key_here"
